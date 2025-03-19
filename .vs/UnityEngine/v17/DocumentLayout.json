@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\Readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:Readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE066B40-DF06-4C7D-8363-A24E380D5C5C}|Editor_window\\Editor_window.vcxproj|C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\Editor_window\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BE066B40-DF06-4C7D-8363-A24E380D5C5C}|Editor_window\\Editor_window.vcxproj|solutionrelative:Editor_window\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,11 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Readme.md",
+              "DocumentMoniker": "C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\Readme.md",
+              "RelativeDocumentMoniker": "Readme.md",
+              "ToolTip": "C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\Readme.md",
+              "RelativeToolTip": "Readme.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-03-19T00:48:57.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\Editor_window\\main.cpp",
               "RelativeDocumentMoniker": "Editor_window\\main.cpp",
