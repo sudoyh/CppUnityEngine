@@ -3,11 +3,11 @@
 
 #include "framework.h"
 #include "Editor_window.h"
-#include "CommonInclude.h"
+#include "..\\yhEngine_Source\\CommonInclude.h"
 #include "..\\yhEngine_Source\\yhApplication.h"
 
 
-Application app;
+yh::Application application;
 
 
 #define MAX_LOADSTRING 100
@@ -31,7 +31,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, // Program instance
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
    
-    app.test();
+ 
     
     // TODO: Place code here.
 
@@ -60,7 +60,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, // Program instance
             }
         }
         else {
-            int a = 0;
+            application.Run();
+
         }
 
 
@@ -125,6 +126,11 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    HWND hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
       CW_USEDEFAULT, 0, 1600, 900, nullptr, nullptr, hInstance, nullptr);
 
+
+   application.Initialize(hWnd);
+
+
+
    if (!hWnd)
    {
       return FALSE;
@@ -169,34 +175,16 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         break;
     case WM_PAINT:
         {
-            PAINTSTRUCT ps;
-            HDC hdc = BeginPaint(hWnd, &ps);
-
-            HBRUSH brush = CreateSolidBrush(RGB(0,0,255));
-            HBRUSH oldbrush = (HBRUSH)SelectObject(hdc, brush);
-
-            Rectangle(hdc, 100, 100, 200, 200);
-
-            SelectObject(hdc, oldbrush);
-            
-            DeleteObject(brush);
-
-
-            Ellipse(hdc, 200, 200, 300, 300);
-
-            // TODO: Add any drawing code that uses hdc here...
-            EndPaint(hWnd, &ps);
+        PAINTSTRUCT ps;
+        HDC hdc = BeginPaint(hWnd, &ps);
+        
+        EndPaint(hWnd, &ps);
         }
         break;
     case WM_DESTROY:
         PostQuitMessage(0);
         break;
-    //case WM_LBUTTONDOWN:
-    //{
-    //    int a = 0;
-    //}
-    //break;
-
+  
 
 
     default:

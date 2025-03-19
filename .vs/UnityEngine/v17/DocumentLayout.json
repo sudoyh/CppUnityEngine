@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{BE066B40-DF06-4C7D-8363-A24E380D5C5C}|Editor_window\\Editor_window.vcxproj|solutionrelative:Editor_window\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{761C9088-9705-462A-B60A-3908AD597945}|yhEngine_Source\\yhEngine_Source.vcxitems|C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\yhEngine_Source\\yhApplication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{761C9088-9705-462A-B60A-3908AD597945}|yhEngine_Source\\yhEngine_Source.vcxitems|solutionrelative:yhEngine_Source\\yhApplication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{761C9088-9705-462A-B60A-3908AD597945}|yhEngine_Source\\yhEngine_Source.vcxitems|C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\yhEngine_Source\\yhApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{761C9088-9705-462A-B60A-3908AD597945}|yhEngine_Source\\yhEngine_Source.vcxitems|solutionrelative:yhEngine_Source\\yhApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{761C9088-9705-462A-B60A-3908AD597945}|yhEngine_Source\\yhEngine_Source.vcxitems|C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\yhEngine_Source\\yhApplication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{761C9088-9705-462A-B60A-3908AD597945}|yhEngine_Source\\yhEngine_Source.vcxitems|solutionrelative:yhEngine_Source\\yhApplication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{761C9088-9705-462A-B60A-3908AD597945}|yhEngine_Source\\yhEngine_Source.vcxitems|C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\yhEngine_Source\\CommonInclude.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{761C9088-9705-462A-B60A-3908AD597945}|yhEngine_Source\\yhEngine_Source.vcxitems|solutionrelative:yhEngine_Source\\CommonInclude.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +34,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "CommonInclude.h",
+              "DocumentMoniker": "C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\yhEngine_Source\\CommonInclude.h",
+              "RelativeDocumentMoniker": "yhEngine_Source\\CommonInclude.h",
+              "ToolTip": "C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\yhEngine_Source\\CommonInclude.h",
+              "RelativeToolTip": "yhEngine_Source\\CommonInclude.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-19T08:02:34.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "yhApplication.cpp",
               "DocumentMoniker": "C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\yhEngine_Source\\yhApplication.cpp",
               "RelativeDocumentMoniker": "yhEngine_Source\\yhApplication.cpp",
               "ToolTip": "C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\yhEngine_Source\\yhApplication.cpp",
               "RelativeToolTip": "yhEngine_Source\\yhApplication.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-19T07:06:33.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "yhApplication.h",
               "DocumentMoniker": "C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\yhEngine_Source\\yhApplication.h",
               "RelativeDocumentMoniker": "yhEngine_Source\\yhApplication.h",
               "ToolTip": "C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\yhEngine_Source\\yhApplication.h",
               "RelativeToolTip": "yhEngine_Source\\yhApplication.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-19T07:00:58.512Z",
               "EditorCaption": ""
@@ -62,7 +79,7 @@
               "RelativeDocumentMoniker": "Editor_window\\main.cpp",
               "ToolTip": "C:\\Users\\userWin\\Desktop\\CppServer\\UnityEngine\\Editor_window\\main.cpp",
               "RelativeToolTip": "Editor_window\\main.cpp",
-              "ViewState": "AgIAABMAAAAAAAAAAAAowCIAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-19T00:35:12.03Z",
               "EditorCaption": ""
