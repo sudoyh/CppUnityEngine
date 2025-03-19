@@ -6,9 +6,9 @@ namespace yh
     Application::Application()
         : mHwnd(nullptr)
         , mHdc(nullptr)
-        , mSpeed(0.0f)
+       /* , mSpeed(0.0f)
         , mX(0.0f)
-        , mY(0.0f)
+        , mY(0.0f)*/
     {
 
     }
@@ -21,6 +21,9 @@ namespace yh
     {
         mHwnd = hwnd;
         mHdc = GetDC(hwnd);
+
+        mPlayer.SetPosition(0, 0);
+
     }
     void Application::Run()
     {
@@ -32,7 +35,7 @@ namespace yh
 
     void Application::Update()
     {
-        mSpeed += 0.01f;
+        /*mSpeed += 0.01f;
 
         if (GetAsyncKeyState(VK_LEFT) & 0x8000)
         {
@@ -52,7 +55,9 @@ namespace yh
         if (GetAsyncKeyState(VK_DOWN) & 0x8000)
         {
             mY += 0.01f;
-        }
+        }*/
+        mPlayer.Update();
+
     }
     void Application::LateUpdate()
     {
@@ -63,7 +68,7 @@ namespace yh
 
         Rectangle(mHdc, 500, 500, 600, 600);
 
-        HBRUSH blueBrush = CreateSolidBrush(RGB(0, 0, 255));
+        /*HBRUSH blueBrush = CreateSolidBrush(RGB(0, 0, 255));
 
        
         HBRUSH oldBrush = (HBRUSH)SelectObject(mHdc, blueBrush);
@@ -76,6 +81,7 @@ namespace yh
 
         SelectObject(mHdc, oldBrush);
         DeleteObject(blueBrush);
-        DeleteObject(redPen);
+        DeleteObject(redPen);*/
+        mPlayer.Render(mHdc);
     }
 }

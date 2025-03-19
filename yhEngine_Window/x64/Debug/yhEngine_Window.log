@@ -1,6 +1,2 @@
 ﻿  yhApplication.cpp
-C:\Users\userWin\Desktop\CppServer\UnityEngine\yhEngine_Source\yhApplication.cpp(75,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\userWin\Desktop\CppServer\UnityEngine\yhEngine_Source\yhApplication.cpp(75,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\userWin\Desktop\CppServer\UnityEngine\yhEngine_Source\yhApplication.cpp(75,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\userWin\Desktop\CppServer\UnityEngine\yhEngine_Source\yhApplication.cpp(75,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   yhEngine_Window.vcxproj -> C:\Users\userWin\Desktop\CppServer\UnityEngine\x64\Debug\yhEngine_Window.lib

@@ -1,6 +1,6 @@
 #pragma once
 #include "CommonInclude.h"
-
+#include "yhGameObject.h"
 
 namespace yh {
 
@@ -22,9 +22,12 @@ namespace yh {
             HWND mHwnd;
             HDC mHdc;
 
-            float mSpeed;
+           /* float mSpeed;
             float mX;
-            float mY;
+            float mY;*/
+
+            GameObject mPlayer;
+
 	};
 }
 
