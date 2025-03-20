@@ -24,7 +24,7 @@ namespace yh
 
 
     private:
-        // 게임오브젝트의 좌표
+        
         float mX;
         float mY;
     };

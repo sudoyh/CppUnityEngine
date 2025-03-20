@@ -2,6 +2,8 @@
 #include "CommonInclude.h"
 #include "yhGameObject.h"
 
+
+
 namespace yh {
 
         class Application
@@ -22,9 +24,6 @@ namespace yh {
             HWND mHwnd;
             HDC mHdc;
 
-           /* float mSpeed;
-            float mX;
-            float mY;*/
 
             GameObject mPlayer;
 
